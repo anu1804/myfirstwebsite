@@ -1,0 +1,195 @@
+/* body{
+    background-color: blue;
+} */
+/* for change font style 
+  https://www.w3schools.com/cssref/css_fonts_fallbacks.asp
+  https://www.cssfontstack.com/
+  https://fonts.google.com/specimen/Montserrat?query=mon
+*/
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+/* div{
+    background-color: aqua;
+} */
+.top{
+    background-color: aqua;
+}
+.au{
+    text-decoration: underline;
+}
+h1{
+    margin: 0;
+    position: relative;
+    top: 60px;
+    line-height: 2;
+    font-size: 100px;
+     /* width: 10%; */
+    /* this is not follow to the center */
+    /* margin: 0 auto; */ 
+    /* for auto it come to center */
+    font-family: 'Sacramento', cursive;
+}
+.subhead{
+    margin-top: 5rem;
+    color: black;
+    font-family: 'Merriweather', serif;
+}
+h2{
+    color: rgb(8, 122, 33);
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+}
+h3{
+    color: rgb(5, 184, 238);
+}
+p{
+    line-height: 2;
+}
+hr{
+    border-top: 5px dotted rgb(77, 75, 75);
+    width: 5%;
+    margin: 50px auto;
+}
+a{
+    margin: 10px 20px;
+}
+a:hover{
+    color: #681d0a;
+}
+.intro{
+    width: 35%;
+    margin: auto;
+}
+img{
+    background-color: aqua;
+}
+.middle{
+    margin: 50px 0;
+}
+.point{
+    margin-right: 20px;
+}
+.imgcom{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    float: left;
+    margin-right: 50px;
+}
+.imgpeople{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    float: left;
+    margin-right: 50px;
+}
+.firstcloud{
+    position: absolute;
+    right: 200px;
+    top: 30px;
+}
+.seccloud{
+    position: absolute;
+    left: 90px;
+    top: 70px;
+}
+.thirdcloud{
+    position: absolute;
+    left: 200px;
+    top: 220px;
+}
+.fourcloud{
+    position: absolute;
+    right: 80px;
+    top: 220px;  
+}
+.building1{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 10px;
+    top: 532px;  
+}
+.building2{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 150px;
+    top: 532px;  
+}
+.building3{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 10px;
+    top: 532px;  
+}
+.bird1{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 200px;
+    top: 400px;  
+}
+.bird2{
+    width: 150px;
+    height: 125px;
+    position: absolute;
+    right: 250px;
+    top: 350px;  
+}
+.tree{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 200px;
+    top: 580px;  
+}
+.mountain{
+    width: 400px;
+    height: 400px;
+     
+}
+.line{
+   border-top: 10px solid rgb(114, 104, 15); 
+   width: 100%;
+   margin-top: 0rem;
+}
+.code{
+    width: 50%;
+    margin: 30px auto 50px auto;
+    text-align: left;
+}
+.end{
+    background-color: aqua;
+    padding: 5px 0 20px;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #135b87);
+    background-image: -moz-linear-gradient(top, #11cdd4, #135b87);
+    background-image: -ms-linear-gradient(top, #11cdd4, #135b87);
+    background-image: -o-linear-gradient(top, #11cdd4, #135b87);
+    background-image: linear-gradient(to bottom, #11cdd4, #135b87);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
